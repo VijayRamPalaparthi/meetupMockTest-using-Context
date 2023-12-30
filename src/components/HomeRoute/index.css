@@ -1,0 +1,70 @@
+.bg-container {
+  background-color: #cbd5e1;
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  width: 170px;
+  height: 40px;
+  margin: 10px;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 1;
+  align-items: center;
+}
+.name {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 40px;
+  color: #2563eb;
+  text-align: center;
+}
+.welcome {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 25px;
+  color: #334155;
+  text-align: center;
+}
+.no-name {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 40px;
+  color: #334155;
+  text-align: center;
+  margin-top: 10px;
+}
+.about {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 30px;
+  color: #64748b;
+  text-align: center;
+  margin-top: 15px;
+}
+.meetup-image {
+  width: 700px;
+  height: 400px;
+  align-self: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+.link-container {
+  align-self: center;
+}
+.register-button {
+  height: 40px;
+  width: 120px;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
